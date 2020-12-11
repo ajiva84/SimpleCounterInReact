@@ -1,4 +1,11 @@
 @import "~bootstrap/scss/bootstrap.scss";
+@import url('https://fonts.googleapis.com/css2?family=Langar&display=swap');
+
+
+body {
+    background:white;
+    font-family: 'Langar', cursive;
+}
 
 /* 
 
@@ -11,3 +18,10 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.buttons {
+    width: 300px;
+}
+
+.margins {
+    margin-top: 200px;
+}
